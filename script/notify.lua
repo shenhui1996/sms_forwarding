@@ -1,8 +1,8 @@
 local notify = {}
 
 --你的wifi名称和密码
-local wifiName = ""
-local wifiPasswd = ""
+local wifiName = "A-"
+local wifiPasswd = "956782297"
 
 --这里默认用的是LuatOS社区提供的推送服务，无使用限制
 --官网：https://push.luatos.org/ 点击GitHub图标登陆即可
@@ -14,7 +14,7 @@ local useServerChan = false
 --LuatOS社区提供的推送服务 https://push.luatos.org/
 --这里填.send前的字符串就好了
 --如：https://push.luatos.org/ABCDEF1234567890ABCD.send/{title}/{data} 填入 ABCDEF1234567890ABCD
-local luatosPush = "ABCDEF1234567890ABCD"
+local luatosPush = "C2A1085FCE144056AD6A9EAF92257F15"
 
 --server酱的配置，免费用户每天仅可发送五条推送消息
 --server酱的SendKey，如果你用的是这个就需要填一个
